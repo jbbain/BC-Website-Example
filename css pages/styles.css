@@ -1,0 +1,190 @@
+/* Initial Body format */
+body {
+/*  background-color: sandybrown; 
+    background-image: url(seats.jpg); */
+	background: maroon;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: maroon;
+	width:  285px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	background-color: maroon;
+	width:  285px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+h4{
+	color: white;
+}
+
+ul{
+	color: white;
+	
+}
+a: hover{
+	color: coral;
+	
+	
+}
+
+p{
+	color: white;
+	font-size: 18px;
+	font-family:sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+
+/* Main Page background image*/
+.enlarge {
+    background: url(/images/LibraryCafe_image2.jpg) no-repeat center center fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+            background-size: cover;
+}
+
+/* Initial menu format class */
+.menu {
+    background: #29A337 url(wood2.jpg) repeat left top;
+    left: -285px; /*menu begins off the screen*/
+    height: 100%;
+    position: fixed;
+    width: 285px;
+}
+
+.menu ul {
+    border-top: 1px solid #d0852f;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #d0852f;
+    font-family:sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.menu a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* Initial icon image formats*/
+.closebutton{
+    cursor: pointer;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.word_menu{
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-top: 2px;
+	width: 55px;
+    text-decoration: none;
+    text-transform: uppercase;
+	margin: 12px;
+}
+
+.word_menu i{
+    margin-right: 5px;
+}
+
+/* ID's */
+#indent{
+	margin-left: 50px;
+}
+
+#hours{
+	color: white;
+	margin-right: 60px;
+	margin-left: 65%;
+}
+
+
+
+/***Slide Show Classes and IDs***/
+#slide{
+	background-color: lightgrey;
+	width: 950px;
+	height: 550px;
+	margin: 20px auto;
+	position: relative;
+
+	
+}
+
+#previous{
+	height: 550px;
+	width: 100px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#next{
+	height: 550px;
+	width: 100px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	
+}
+
+#img{
+	height: 550px;
+	width: 950px;
+	position: absolute;
+}
+
+.leftside{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	left: 0px;
+	cursor: pointer;
+	
+}
+
+.rightside{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	right: 0px;
+	cursor: pointer;
+	
+}
